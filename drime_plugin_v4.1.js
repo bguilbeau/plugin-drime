@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded",function(){
 
     headerHtml.then(() => {
       let currentScript = document.createElement("script");
-      currentScript.setAttribute( 'src', "https://drime-player.s3.eu-west-3.amazonaws.com/js/drime_controller_v4.1.3.js");
+      currentScript.setAttribute( 'src', "https://github.com/bguilbeau/plugin-drime/blob/main/drime_controller_v4.1.3.js");
       document.body.appendChild(currentScript);
     });
   }
